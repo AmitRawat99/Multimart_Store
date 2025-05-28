@@ -1,0 +1,141 @@
+@import "../index.scss";
+
+
+.Header_content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .logo {
+    display: flex;
+    align-items: center;
+    img {
+      width: 30px;
+    }
+    span {
+      margin-left: 5px;
+      font-weight: bold;
+      font-size: 1.5rem;
+      text-transform: capitalize;
+    }
+  }
+  .ul_list {
+    li {
+      a {
+        text-decoration: none;
+        font-size: 1.1rem;
+        color: $Black-Color;
+      }
+    }
+  }
+  .user-indentify {
+    i {
+      text-decoration: none;
+    }
+  }
+  .user-indentify {
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    svg {
+      margin: 3px;
+      position: relative;
+      cursor: pointer;
+    }
+    .add-icons {
+      position: relative;
+    }
+    span {
+      content: "";
+      width:15px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      right: 0;
+      border-radius: 50%;
+      color: $White-Color;
+      font-size: 0.9rem;
+      height: 15px;
+      background-color: red;
+      position: absolute;
+    }
+  }
+}
+.user_info{
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  cursor: pointer;
+  li{
+    list-style-type: none;
+    margin: 0 10px;
+    a{
+      text-decoration: none;
+      font-size: 18px;
+      font-weight: bold;
+    }
+  }
+  svg{
+    width: 30px;
+    height:30px;
+  }
+  h3{
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 20px;
+    margin-left: 8px;
+  }
+}
+
+.profile{
+  display: flex;
+  gap: 10px;
+
+  align-items: center;
+  img{
+    width: 50px;
+    height:50px;
+    border: 1px solid lightgray;
+    padding: 3px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  p{
+    font-size: 18px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-weight: bold;
+  }
+}
+
+
+.submenu {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  margin-top: 10px;
+  width: 150px;
+  z-index: 10;
+}
+
+.submenu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.submenu li {
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.submenu li:hover {
+  background-color: #f5f5f5;
+}
+
+.nonActive{
+  display: none;
+}

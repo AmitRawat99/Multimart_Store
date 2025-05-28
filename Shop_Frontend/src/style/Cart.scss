@@ -1,0 +1,45 @@
+@import "../index.scss";
+
+
+
+.cart-container{
+    .row{
+        display: flex !important;
+        align-items: normal !important;
+    }
+  img {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    border: 1px solid #d3d3d36b;
+    cursor: pointer;
+  }
+  .product-name {
+    font-weight: bold;
+    font-size: 1rem;
+  }
+  .product-price {
+    font-weight: bold;
+    font-size: 1rem;
+  }
+  svg{
+    font-size: 40px;
+    font-weight: bold;
+    border-radius: 50%;
+    border: 1px solid lightgray;
+    background-color: $primary-color;
+    color: white;
+    cursor: pointer;
+    padding: 8px;
+  }
+  .product-qtyF{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.order-now{
+    font-weight: bold;
+}
+}
+
+

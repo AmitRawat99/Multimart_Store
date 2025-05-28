@@ -1,0 +1,134 @@
+@import "../index.scss";
+
+.container_box {
+  width: 100%;
+  height: 400px;
+  background-color: $card-bg-03;
+  overflow: hidden;
+  position: relative;
+  .contact-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .contact-content {
+    gap: 30px;
+    h2 {
+      font-size: 2rem;
+      font-weight: bold;
+    }
+    p {
+      margin: 10px 0;
+      font-size: 1.1rem;
+      font-family: $Title-Font;
+    }
+  }
+}
+
+.form-container-box {
+  background-color: white;
+  border: 1px solid lightgray;
+  display: flex;
+  gap: 10px;
+  position: relative;
+  bottom: 30px;
+  padding: 30px;
+  border-radius: 10px;
+  .location-title {
+    gap: 10px;
+    h2 {
+      font-size: 2rem;
+      font-weight: bold;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    }
+    p {
+      margin: 10px 0;
+      font-family: $Title-Font;
+      font-size: 1.1rem;
+      max-width: 500px;
+    }
+  }
+
+  .location-componets {
+  }
+  .location-cards {
+    display: flex;
+    gap: 10px;
+    margin: 20px 0;
+    .location-description {
+      width: 50px;
+      height: 50px;
+      background-color: $card-bg-04;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: black;
+      font-size: 1.5rem;
+      margin-right: 10px;
+      border-radius: 50%;
+      border: 1px solid lightgray;
+    }
+    .location-content {
+      h2 {
+        font-weight: bold;
+        margin: 5px 0;
+        color: darkblue;
+        font-size: 1.3rem;
+      }
+      a{
+        font-weight: bold;
+      }
+      p{
+        font-weight: bold;
+      }
+    }
+  }
+}
+
+
+.input-container{
+  .input-title{
+    margin: 25px 0;
+    h2{
+      font-weight: bold;
+      font-size: 2rem;
+
+      margin: 10px 0;
+    }
+  }
+  .form-control{
+    height: 45px;
+    &:focus{
+      outline: none;
+      box-shadow: none;
+    }
+  }
+  .form-label{
+    font-weight: bold;
+    font-size: 1.1rem;
+  }
+  textarea{
+    height: 200px !important;
+  }
+}
+.follow-container{
+  .follow-title{
+    h2{
+      font-weight: bold;
+      font-size: 2rem;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+  }
+  .follow-icons{
+    margin: 30px 0;
+    gap: 30px;
+    svg{
+      margin: 0 10px;
+      border-radius: 50%;
+      background-color:$card-bg-04;
+      font-size: 40px;
+      padding: 10px;
+      cursor: pointer;
+    }
+  }
+}
