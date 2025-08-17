@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import '../../style/offers.scss'
+import '../../style/Offers.scss'
 import sofa_tea from '../../assets/images/sofa_chair.png'
 import { useNavigate } from 'react-router-dom'
 
